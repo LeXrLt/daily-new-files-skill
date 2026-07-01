@@ -1,0 +1,11 @@
+{
+  "folder": "/Users/yourname/Documents/Inbox",
+  "recursive": true,
+  "time_basis": "created",
+  "ignore_hidden": true,
+  "exclude_globs": [
+    "**/.DS_Store",
+    "**/node_modules/**",
+    "**/.git/**"
+  ]
+}
