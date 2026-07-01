@@ -45,9 +45,10 @@ After running the script:
 
 1. Read the generated Markdown report (path is printed on the last line as
    `REPORT_PATH: ...`).
-2. Present a concise natural-language summary to the user: how many new files,
-   their total size, notable file types, and highlight anything interesting.
-3. Offer to open the full report or re-run for a different date/folder.
+2. Reply to the user with the exact original Markdown content of that generated
+   report file.
+3. Do not replace the report with a paraphrase or summary. Preserve the
+   headings, tables, blockquotes, and footer as written in the file.
 
 ## Notes
 
